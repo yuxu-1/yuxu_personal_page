@@ -13,7 +13,7 @@ sections:
       username: yuxu
   - block: experience
     content:
-      title: Academic Experience
+      title: Academic Positions
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -67,6 +67,32 @@ sections:
 #    design:
 #      columns: '2'
 #      view: card
+  - block: accomplishments
+    content:
+      title: Academic Experiences
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: '2006'
+      items:
+        - title: 'External reviewer (BIBM 2023)'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2023-09-01'
+          description: ''
+          organization: International Conference on Bioinformatics and Biomedicine
+          organization_url: https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/
+          url: ''
+        - title: 'External reviewer (ISBRA 2023)'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2023-08-01'
+          description: ''
+          organization: 19th International Symposium on Bioinformatics Research and Applications
+          organization_url: https://mangul-lab-usc.github.io/ISBRA23/
+          url: ''
+    design:
+      columns: '2'
   - block: contact
     id: contact
     content:

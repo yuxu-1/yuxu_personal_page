@@ -5,7 +5,7 @@ authors:
 - JiaxingCheng
 - Aiping Lyu
 - William K. Cheung
-- LuZhang
+- Lu Zhang
 author_notes:
 - "First author"
 - "Co-first author"
