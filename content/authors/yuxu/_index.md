@@ -22,7 +22,7 @@ organizations:
     url: https://www.comp.hkbu.edu.hk/v1/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include deep learning networks, computational genomics, and machine learning in drug discovery.
+bio: My research interests include deep learning networks, computational genomics, and AI in drug discovery.
 
 # Interests to show in About widget
 interests:
