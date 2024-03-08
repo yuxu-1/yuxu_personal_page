@@ -68,6 +68,7 @@ sections:
 #      columns: '2'
 #      view: card
   - block: accomplishments
+    id: academic
     content:
       title: Academic Experiences
       subtitle: ''
@@ -75,6 +76,14 @@ sections:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: '2006'
       items:
+        - title: 'Co-reviewer (training in peer review)'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2023-09-10'
+          description: ''
+          organization: Nature Communications
+          organization_url: https://www.nature.com/ncomms/
+          url: ''
         - title: 'External reviewer (BIBM 2023)'
           certificate_url: ''
           date_end: ''
@@ -93,6 +102,25 @@ sections:
           url: ''
     design:
       columns: '2'
+  - block: accomplishments
+    id: teaching
+    content:
+      title: Teaching Experiences
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: '2006'
+      items:
+        - title: 'Teaching Assistant'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2024-01-08'
+          description: 'COMP7940 Cloud Computing'
+          organization: Department of Computer Science, Hong Kong Baptist University
+          organization_url: 
+          url: ''
+    design:
+      columns: '2'
   - block: contact
     id: contact
     content:
@@ -103,7 +131,7 @@ sections:
       email: csyuxu@comp.hkbu.edu.hk
       #appointment_url: 'https://calendly.com'
       address:
-        street: Waterloo Rd, Kowloon Tong
+        street: David C Lam Building (DLB) 625, Waterloo Rd, Kowloon Tong
         city: Hong Kong
         region: CN
         postcode: ''

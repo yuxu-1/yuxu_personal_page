@@ -26,8 +26,8 @@ bio: My research interests include deep learning networks, computational genomic
 
 # Interests to show in About widget
 interests:
-  - Deep learning in Bioinformatics
-  - Computational Biology
+  - Deep learning in Genomics
+  - Bioinformatics
   - AI in Drug Discovery
 
 # Education to show in About widget
@@ -53,14 +53,16 @@ social:
     link: '/#contact'
   - icon: github
     icon_pack: fab
-    link: https://github.com/yuxu-1
+    link: https://github.com/ericcombiolab
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume_yuxu.pdf
-
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0005-4873-1659
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'allanxu20@gmail.com'
 
@@ -68,5 +70,5 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-I am a Ph.D. student at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and *in silico* drug discovery. I am interested in designing novel algorithms based on state-of-the-art deep learning models (e.g., large language models) to decipher complex biological processes from single-cell omics data.
+I am a Ph.D. student at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and *in silico* aptamer drug discovery. I am interested in designing novel algorithms based on state-of-the-art deep learning models (e.g., large language models) to decipher complex biological processes using single-cell omics data. Feel free to email me if you are interest with my research topics.
 {style="text-align: justify;"}
