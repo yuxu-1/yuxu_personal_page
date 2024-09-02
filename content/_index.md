@@ -131,7 +131,7 @@ sections:
           certificate_url: ''
           date_end: ''
           date_start: '2024-09-02'
-          description: 'COMP2035 AI and Data Analytics for Health and Social sInnovation I'
+          description: 'COMP2035 AI and Data Analytics for Health and Social Innovation I'
           organization: Department of Computer Science, Hong Kong Baptist University
           organization_url: 
           url: ''
