@@ -27,8 +27,10 @@ bio: My research interests include deep learning networks, computational genomic
 # Interests to show in About widget
 interests:
   - Deep learning in Genomics
+  - Deep learning in Metabolomics
+  - AI for Science
   - Bioinformatics
-  - AI in Drug Discovery
+
 
 # Education to show in About widget
 education:
@@ -70,5 +72,5 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-I am a Ph.D. student at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and *in silico* aptamer drug discovery. I am interested in designing novel algorithms based on state-of-the-art deep learning models (e.g., large language models) to decipher complex biological processes using single-cell omics data. Feel free to email me if you are interest with my research topics.
+I am a Ph.D. student at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and omics data to address the challenges in genomic and metabolomic applications. Feel free to email me if you are interest with my research topics.
 {style="text-align: justify;"}

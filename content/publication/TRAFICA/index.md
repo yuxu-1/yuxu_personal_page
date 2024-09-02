@@ -1,5 +1,5 @@
 ---
-title: 'TRAFICA: Improving Transcription Factor Binding Affinity Prediction using Deep Language Model on ATAC-seq Data'
+title: 'TRAFICA: An Open Chromatin Language Model to Improve Transcription Factor Binding Affinity Prediction'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -29,15 +29,15 @@ publication_types: ['3']
 publication: 'BioRxiv'
 publication_short: ''
 
-abstract: "In silico prediction of transcription factor (TF) binding affinity plays a vital role in determining TF binding preferences and understanding gene regulation. Many existing tools utilize known TF-DNA binding data to train conventional machine learning and deep learning models to predict TF-DNA binding affinities. The majority of these tools do not consider the natural preferences of DNA sequences binding to TFs, which could be influenced by chromatin accessibility. In this study, we developed TRAFICA, a deep language model to predict TF-DNA binding affinities by integrating chromatin accessibility from ATAC-seq and known TF-DNA binding data. We pre-trained TRAFICA on an integrated ATAC-seq dataset with over 13 million nucleotide sequences in a self-supervised manner to learn potential TF-DNA binding preferences and contextual relationships within DNA sequences. TRAFICA was fine-tuned using PBM and HT-SELEX datasets to predict in vitro TF-DNA binding affinities. We also implemented AdapterFusion to enhance its ability to predict in vivo TF-DNA binding affinities. We observed TRAFICA significantly outperformed the six existing tools in predicting in vitro TF-DNA binding affinities and was comparable with the best tool on in vivo prediction."
+abstract: "In silico transcription factor and DNA (TF-DNA) binding affinity prediction plays a vital role in examining TF binding preferences and understanding gene regulation. The existing tools employ TF-DNA binding profiles from in vitro high-throughput technologies to predict TF-DNA binding affinity. However, TFs tend to bind to sequences in open chromatin regions in vivo, such TF binding preference is seldomly considered by these existing tools. In this study, we developed TRAFICA, an open chromatin language model to predict TF-DNA binding affinity by integrating the characteristics of sequences from open chromatin regions in ATAC-seq experiments and in vitro TF-DNA binding profiles from high-throughput technologies. We applied self-supervised learning to pre-train TRAFICA on over 13 million nucleotide sequences from the peaks in ATAC-seq experiments to learn the TF binding preference in vivo. TRAFICA was further fine-tuned using the TF-DNA binding profiles from PBM and HT-SELEX technologies to learn the association between TFs and their target DNA sequences. We observed that TRAFICA significantly outperformed both machine learning-based and deep learning-based tools in predicting in vitro and in vivo TF-DNA binding affinity. These findings indicate that considering the characteristics of sequences from open chromatin regions could significantly improve TF-DNA binding affinity prediction, particularly when limited TF-DNA binding profiles from high-throughput technologies are available for specific TFs."
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: 
 - Transcription factor binding affinitiy
-- Genome language models
+- language models
 - In vitro binding
-- Chromatin accessibility
+- open chromatin regions
 featured: false
 
 # Custom links (uncomment lines below)
