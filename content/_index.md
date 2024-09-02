@@ -76,6 +76,14 @@ sections:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: '2006'
       items:
+        - title: 'External reviewer (BIBM 2024)'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2024-09-1'
+          description: ''
+          organization: International Conference on Bioinformatics and Biomedicine
+          organization_url: 
+          url: ''
         - title: 'Co-reviewer (training in peer review)'
           certificate_url: ''
           date_end: ''
@@ -113,9 +121,17 @@ sections:
       items:
         - title: 'Teaching Assistant'
           certificate_url: ''
-          date_end: ''
+          date_end: '2024-05-01'
           date_start: '2024-01-08'
           description: 'COMP7940 Cloud Computing'
+          organization: Department of Computer Science, Hong Kong Baptist University
+          organization_url: 
+          url: ''
+        - title: 'Teaching Assistant'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2024-09-02'
+          description: 'COMP2035 AI and Data Analytics for Health and Social sInnovation I'
           organization: Department of Computer Science, Hong Kong Baptist University
           organization_url: 
           url: ''
