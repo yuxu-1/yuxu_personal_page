@@ -79,7 +79,7 @@ sections:
         - title: 'External reviewer (BIBM 2024)'
           certificate_url: ''
           date_end: ''
-          date_start: '2024-09-1'
+          date_start: '2024-09-01'
           description: ''
           organization: International Conference on Bioinformatics and Biomedicine
           organization_url: 
