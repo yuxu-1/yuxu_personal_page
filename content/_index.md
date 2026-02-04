@@ -44,10 +44,21 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       columns: '2'
       view: citation
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
 #  - block: markdown
 #    id: gallery
 #    content:
@@ -57,17 +68,6 @@ sections:
 #        {{< gallery album="research" >}}
 #    design:
 #      columns: '1'
-#  - block: collection
-#    id: featured
-#    content:
-#      title: Featured Publications
-#      filters:
-#        folders:
-#          - publication
-#        featured_only: true
-#    design:
-#      columns: '2'
-#      view: card
   - block: accomplishments
     id: academic
     content:
