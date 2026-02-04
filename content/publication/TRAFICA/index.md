@@ -31,7 +31,7 @@ publication_short: ''
 
 abstract: "In silico transcription factor and DNA (TF–DNA) binding affinity prediction plays a vital role in examining TF binding preferences and understanding gene regulation. The existing tools employ TF–DNA binding profiles from in vitro high-throughput technologies to predict TF–DNA binding affinity. However, TFs tend to bind to sequences in open chromatin regions in vivo, such TF binding preference is seldomly considered by these existing tools. In this study, we developed TRAFICA, an open chromatin language model to predict TF–DNA binding affinity by integrating sequence characteristics of open chromatin regions from ATAC-seq experiments and in vitro TF–DNA binding profiles from high-throughput technologies. We pretrained TRAFICA on over 2.8 million nucleotide sequences in open chromatin regions derived from 197 ATAC-seq experiments (115 cell lines) to learn in vivo TF binding preferences. We further fine-tuned TRAFICA using low-rank adaptation (LoRA) on PBM and HT-SELEX TF-DNA binding profiles to learn intrinsic binding preferences for specific TFs. We systematically evaluated TRAFICA and compared its predictive performance with existing prediction tools and advanced DNA language models. The experimental results demonstrated that TRAFICA significantly outperformed the others in predicting in vitro and in vivo TF–DNA binding affinity, achieving state-of-the-art performance. These findings indicate that considering the sequence characteristics from open chromatin regions could significantly improve TF–DNA binding affinity prediction."
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: An open chromatin language model for transcription factor-DNA binding affinity prediction by integrating ATAC-seq data and in vitro binding profiles, achieving state-of-the-art performance.
 
 tags: 
 - Transcription factor - DNA binding affinity
@@ -58,8 +58,10 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'TRAFICA framework'
-  focal_point: ''
+  focal_point: 'Smart'
   preview_only: false
+  # Uncomment to use the original image size without processing
+  # filename: featured.png  # if your image is PNG format
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
