@@ -59,7 +59,7 @@ url_video: ''
 image:
   caption: 'TRAFICA framework'
   focal_point: 'Smart'
-  preview_only: true  # Don't process the image for card preview 
+  preview_only: false 
   # Uncomment to use the original image size without processing
   # filename: featured.png  # if your image is PNG format
 
@@ -79,5 +79,6 @@ image:
 # slides: example
 ---
 
+![TRAFICA Framework](/uploads/trafica_framework.png)
 
 Supplementary notes can be added here, including [code](https://github.com/ericcombiolab/TRAFICA), [model](https://huggingface.co/collections/Allanxu/trafica) and [data](https://zenodo.org/records/15781226).
