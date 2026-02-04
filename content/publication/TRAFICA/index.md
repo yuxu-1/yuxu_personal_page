@@ -59,7 +59,7 @@ url_video: ''
 image:
   caption: 'TRAFICA framework'
   focal_point: 'Smart'
-  preview_only: false
+  preview_only: true  # Don't process the image for card preview 
   # Uncomment to use the original image size without processing
   # filename: featured.png  # if your image is PNG format
 
