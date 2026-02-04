@@ -17,7 +17,7 @@ date: '2025-08-23T00:00:00Z'
 doi: 'https://doi.org/10.1093/bioinformatics/btaf469'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-08-23T00:00:00Z'
+publishDate: '2025-08-23T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -34,7 +34,7 @@ abstract: "In silico transcription factor and DNA (TF–DNA) binding affinity pr
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: 
-- Transcription factor - DNA binding affinitiy
+- Transcription factor - DNA binding affinity
 - DNA language models
 - Deep learning in Genomics
 - Open chromatin language model
