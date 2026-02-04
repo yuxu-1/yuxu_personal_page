@@ -38,7 +38,7 @@ tags:
 - DNA language models
 - Deep learning in Genomics
 - Open chromatin language model
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'TRAFICA framework'
   focal_point: ''
   preview_only: false
 

@@ -11,7 +11,34 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: yuxu
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      columns: '2'
+      view: citation
   - block: experience
+    id: positions
     content:
       title: Academic Positions
       # Date format for experience
@@ -33,32 +60,6 @@ sections:
           description: 'Research topics: Gene regulatory network reconstruction; Disease risk prediction'
     design:
       columns: '2'
-  - block: collection
-    id: publications
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
 #  - block: markdown
 #    id: gallery
 #    content:
