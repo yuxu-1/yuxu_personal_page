@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. student
+role: Ph.D. Candidator
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: https://www.comp.hkbu.edu.hk/v1/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include deep learning networks, computational genomics, and AI in drug discovery.
+bio: My research interests include computational metabolomics, computational genomics, and large language models in metabolomics.
 
 # Interests to show in About widget
 interests:
@@ -56,6 +56,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/ericcombiolab
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com.hk/citations?user=CUmx8t8AAAAJ&hl=zh-CN&oi=sra
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -72,5 +75,5 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-I am a Ph.D. student at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and omics data to address the challenges in genomic and metabolomic applications. Feel free to email me if you are interest with my research topics.
+I am a Ph.D. candidator at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and multi-omics to address the challenges in computational biology. Feel free to email me if you are interest with my research topics.
 {style="text-align: justify;"}
