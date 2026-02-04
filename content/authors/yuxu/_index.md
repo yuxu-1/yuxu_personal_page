@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidator
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -75,5 +75,5 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-I am a Ph.D. candidator at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and multi-omics to address the challenges in computational biology. Feel free to email me if you are interest with my research topics.
+I am a Ph.D. candidate at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and multi-omics to address the challenges in computational biology. Feel free to email me if you are interest with my research topics.
 {style="text-align: justify;"}
