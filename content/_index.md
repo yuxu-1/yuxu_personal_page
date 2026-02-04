@@ -48,15 +48,15 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: markdown
-    id: gallery
-    content:
-      title: Gallery
-      subtitle: 'Research Highlights'
-      text: |-
-        {{< gallery album="research" >}}
-    design:
-      columns: '1'
+#  - block: markdown
+#    id: gallery
+#    content:
+#      title: Gallery
+#      subtitle: 'Research Highlights'
+#      text: |-
+#        {{< gallery album="research" >}}
+#    design:
+#      columns: '1'
 #  - block: collection
 #    id: featured
 #    content:
