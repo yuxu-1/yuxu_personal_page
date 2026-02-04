@@ -79,6 +79,6 @@ image:
 # slides: example
 ---
 
-![TRAFICA Framework](/uploads/trafica_framework.png)
+![TRAFICA Framework](featured.png)
 
-Supplementary notes can be added here, including [code](https://github.com/ericcombiolab/TRAFICA), [model](https://huggingface.co/collections/Allanxu/trafica) and [data](https://zenodo.org/records/15781226).
+Supplementary: [source code](https://github.com/ericcombiolab/TRAFICA), [model weights](https://huggingface.co/collections/Allanxu/trafica) and [training/evaluation data](https://zenodo.org/records/15781226).
