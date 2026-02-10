@@ -37,7 +37,7 @@ education:
   courses:
     - course: Ph.D. in Computer Science
       institution: Hong Kong Baptist University
-      year: student
+      year: Candidate
     - course: M.Sc. in Advanced Information Systems
       institution: Hong Kong Baptist University
       year: 2021
@@ -64,7 +64,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume_yuxu.pdf
+    link: uploads/XUYu_2026.pdf
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0005-4873-1659
