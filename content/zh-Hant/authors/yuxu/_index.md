@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yu Xu 许煜
+title: Yu Xu 許煜
 
 # Full name (for SEO)
 first_name: Yu
@@ -18,33 +18,33 @@ role: 博士研究生
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: 香港浸会大学计算机科学系
+  - name: 香港浸會大學計算機科學系
     url: https://www.comp.hkbu.edu.hk/v1/
 
 # Short bio
-bio: 研究方向包括计算代谢组学、计算基因组学，以及大语言模型在代谢组学中的应用。
+bio: 研究方向包括計算代謝組學、計算基因組學，以及大語言模型在代謝組學中的應用。
 
 # Interests to show in About widget
 interests:
-  - 基因组学深度学习
-  - 代谢组学深度学习
+  - 基因組學深度學習
+  - 代謝組學深度學習
   - AI for Science
-  - 生物信息学
+  - 生物信息學
 
 # Education to show in About widget
 education:
   courses:
-    - course: 医学院访问学生
-      institution: 密歇根大学
+    - course: 醫學院訪問學生
+      institution: 密西根大學
       year: 2026
-    - course: 计算机科学博士
-      institution: 香港浸会大学
-      year: 在读
-    - course: 高级信息系统硕士
-      institution: 香港浸会大学
+    - course: 計算機科學博士
+      institution: 香港浸會大學
+      year: 在讀
+    - course: 高級信息系統碩士
+      institution: 香港浸會大學
       year: 2021
-    - course: 测控技术与仪器学士
-      institution: 北京师范大学珠海分校
+    - course: 測控技術與儀器學士
+      institution: 北京師範大學珠海分校
       year: 2017
 
 # Social/Academic Networking
@@ -70,7 +70,7 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-> ⚠️ **声明**：本中文页面内容由 AI 自动生成，可能存在翻译不准确或语义误差，建议以[英文页面](/en/)为准。如有疑问，欢迎通过邮件联系确认。
+> ⚠️ **聲明**：本中文頁面內容由 AI 自動生成，可能存在翻譯不準確或語義誤差，建議以[英文頁面](/en/)為準。如有疑問，歡迎通過郵件聯繫確認。
 
-我是香港浸会大学 [Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang) 的博士研究生。目前的研究方向主要围绕计算基因组学与计算代谢组学。我致力于基于最前沿的深度学习技术（如大语言模型）和多组学数据，设计生物基础模型，以应对计算生物学中的关键挑战。如果您对我的研究课题感兴趣，欢迎通过邮件与我联系。
+我是香港浸會大學 [Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang) 的博士研究生。目前的研究方向主要圍繞計算基因組學與計算代謝組學。我致力於基於最前沿的深度學習技術（如大語言模型）和多組學數據，設計生物基礎模型，以應對計算生物學中的關鍵挑戰。如果您對我的研究課題感興趣，歡迎通過郵件與我聯繫。
 {style="text-align: justify;"}

@@ -3,12 +3,12 @@ widget: accomplishments
 active: true
 weight: 50
 
-title: 学术活动
+title: 學術活動
 
 date_format: '2006'
 
 item:
-  - title: '外部审稿人 (Bioinformatics)'
+  - title: '外部審稿人 (Bioinformatics)'
     certificate_url: ''
     date_end: ''
     date_start: '2026-01-01'
@@ -16,7 +16,7 @@ item:
     organization: Bioinformatics
     organization_url: https://academic.oup.com/bioinformatics
     url: ''
-  - title: '外部审稿人 (BIBM 2024)'
+  - title: '外部審稿人 (BIBM 2024)'
     certificate_url: ''
     date_end: ''
     date_start: '2024-09-01'
@@ -24,7 +24,7 @@ item:
     organization: International Conference on Bioinformatics and Biomedicine
     organization_url: ''
     url: ''
-  - title: '联合审稿人（同行评审培训）'
+  - title: '聯合審稿人（同行評審培訓）'
     certificate_url: ''
     date_end: ''
     date_start: '2023-09-10'
@@ -32,7 +32,7 @@ item:
     organization: Nature Communications
     organization_url: https://www.nature.com/ncomms/
     url: ''
-  - title: '外部审稿人 (BIBM 2023)'
+  - title: '外部審稿人 (BIBM 2023)'
     certificate_url: ''
     date_end: ''
     date_start: '2023-09-01'
@@ -40,7 +40,7 @@ item:
     organization: International Conference on Bioinformatics and Biomedicine
     organization_url: https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/
     url: ''
-  - title: '外部审稿人 (ISBRA 2023)'
+  - title: '外部審稿人 (ISBRA 2023)'
     certificate_url: ''
     date_end: ''
     date_start: '2023-08-01'

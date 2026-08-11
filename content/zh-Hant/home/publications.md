@@ -3,12 +3,12 @@ widget: collection
 active: false
 weight: 30
 
-title: 近期论文
+title: 近期論文
 
 content:
   text: |-
     {{% callout note %}}
-    可通过[筛选论文](./publication/)快速查找相关内容。
+    可通過[篩選論文](./publication/)快速查找相關內容。
     {{% /callout %}}
   filters:
     folders:
