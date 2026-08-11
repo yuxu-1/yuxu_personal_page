@@ -33,3 +33,28 @@ zh:
       - name: 联系方式
         url: '#contact'
         weight: 50
+
+zh-Hant:
+  languageCode: zh-Hant
+  languageName: 中文 (繁體)
+  contentDir: content/zh-Hant
+  title: 許煜
+  params:
+    description: 許煜的個人學術主頁
+  menu:
+    main:
+      - name: 主頁
+        url: '#about'
+        weight: 10
+      - name: 學術職位
+        url: '#positions'
+        weight: 20
+      - name: 學術活動
+        url: '#academic'
+        weight: 30
+      - name: 教學
+        url: '#teaching'
+        weight: 40
+      - name: 聯繫方式
+        url: '#contact'
+        weight: 50
