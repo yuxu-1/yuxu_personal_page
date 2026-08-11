@@ -21,21 +21,15 @@ zh:
       - name: 主页
         url: '#about'
         weight: 10
-      - name: 特色论文
-        url: '#featured'
-        weight: 20
-      - name: 发表论文
-        url: '#publications'
-        weight: 30
       - name: 学术职位
         url: '#positions'
-        weight: 40
+        weight: 20
       - name: 学术活动
         url: '#academic'
-        weight: 50
+        weight: 30
       - name: 教学
         url: '#teaching'
-        weight: 60
+        weight: 40
       - name: 联系方式
         url: '#contact'
-        weight: 70
+        weight: 50

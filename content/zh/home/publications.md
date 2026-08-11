@@ -1,6 +1,6 @@
 ---
 widget: collection
-active: true
+active: false
 weight: 30
 
 title: 近期论文

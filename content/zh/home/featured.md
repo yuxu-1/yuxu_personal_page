@@ -1,6 +1,6 @@
 ---
 widget: collection
-active: true
+active: false
 weight: 20
 
 title: 精选论文
