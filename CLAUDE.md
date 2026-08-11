@@ -8,57 +8,75 @@ This is a personal academic homepage built with **Hugo** static site generator +
 
 - **Site owner**: Yu Xu (许煜), Ph.D. Candidate @ HKBU CS
 - **Repo**: `yuxu-1/yuxu_personal_page`
+- **URLs**: English at `/en/`, Chinese at `/zh/`, root `/` auto-redirects to `/en/`
+
+## Architecture: Language-Isolated Content
+
+Each language has its own content directory with `defaultContentLanguageInSubdir: true`. This prevents Hugo auto-translation conflicts.
+
+```
+content/
+├── en/                   # English (default language)
+│   ├── _index.md         # type: widget_page
+│   ├── home/             # Widget pages (headless bundle)
+│   │   ├── index.md
+│   │   ├── about.md, featured.md, publications.md, ...
+│   ├── authors/yuxu/     # Author profile
+│   └── publication/      # 7 publications
+│
+└── zh/                   # Chinese
+    ├── _index.md         # type: widget_page
+    ├── home/             # Widget pages (headless bundle)
+    │   ├── index.md
+    │   ├── disclaimer.md, about.md, featured.md, ...
+    └── authors/yuxu/     # Author profile (Chinese)
+```
 
 ## Bilingual Content Sync Rule (IMPORTANT)
 
-**Any change to English content MUST be mirrored in the Chinese (`zh/`) version.**
+**Any change to English content MUST be mirrored in the Chinese version.**
 
 | English File | Chinese File |
 |---|---|
-| `content/_index.md` | `content/zh/_index.md` |
-| `content/authors/yuxu/_index.md` | `content/zh/authors/yuxu/_index.md` |
-| Any new content page | `content/zh/<same-path>/` |
+| `content/en/_index.md` | `content/zh/_index.md` |
+| `content/en/home/*.md` | `content/zh/home/*.md` |
+| `content/en/authors/yuxu/_index.md` | `content/zh/authors/yuxu/_index.md` |
+| `content/en/publication/*/index.md` | Currently not translated |
 
-Before committing changes that touch English content, always:
+Before committing:
 1. Check if a corresponding Chinese file exists under `content/zh/`
 2. If it exists, update it with the equivalent Chinese translation
 3. If it doesn't exist, create it with translated content
-4. The Chinese pages have an AI-generated disclaimer at the top — keep it in place
+4. Chinese pages have an `⚠️ AI-generated` disclaimer — keep it in place
 
-## Key File Map
+## Key Config Files
 
 ```
 config/_default/
-├── config.yaml       # Site config (title, baseURL, Hugo modules)
-├── params.yaml       # Theme settings (appearance, SEO, features)
-├── menus.yaml        # Navigation menu items
-└── languages.yaml    # Bilingual config (en + zh)
+├── config.yaml       # defaultContentLanguageInSubdir: true, Hugo modules
+├── params.yaml       # show_language: true, twitter: '' (disabled)
+├── menus.yaml        # English nav menu
+└── languages.yaml    # en (contentDir: content/en) + zh (contentDir: content/zh)
+```
 
-content/
-├── _index.md         # English homepage (landing page with widget blocks)
-├── zh/_index.md      # Chinese homepage ← KEEP IN SYNC
-├── authors/yuxu/     # English author profile
-├── zh/authors/yuxu/  # Chinese author profile ← KEEP IN SYNC
-└── publication/      # 7 publications (each a subdirectory with index.md)
+## Key Data Files
 
+```
 data/
-├── page_sharer.toml  # Social sharing buttons (Twitter disabled)
+├── page_sharer.toml  # Social sharing buttons (Twitter: enabled=false)
 ├── fonts/.gitkeep
 └── themes/.gitkeep
-
-static/uploads/
-└── XUYu_2026.pdf     # CV/Resume PDF
 ```
 
 ## Common Tasks
 
-- **Add publication**: Create `content/publication/<slug>/index.md` with frontmatter
-- **Update author info**: Edit `content/authors/yuxu/_index.md` AND `content/zh/authors/yuxu/_index.md`
-- **Update homepage sections**: Edit `content/_index.md` AND `content/zh/_index.md`
-- **Disable a sharing button**: Set `enable = false` in `data/page_sharer.toml`
+- **Add publication**: Create `content/en/publication/<slug>/index.md`
+- **Update homepage**: Edit `content/en/home/*.md` AND `content/zh/home/*.md`
+- **Update author info**: Edit `content/en/authors/yuxu/_index.md` AND `content/zh/authors/yuxu/_index.md`
+- **Change nav menu**: Edit `config/_default/menus.yaml` (English) and `config/_default/languages.yaml` (Chinese menu)
 
 ## Build & Deploy
 
 - Hugo builds and deploys via Netlify automatically on push to `main`
-- Local preview: `hugo server`
-- Chinese version is served at `/zh/` path
+- Local preview: `hugo server` (English at http://localhost:1313/en/, Chinese at /zh/)
+- Root `/` auto-redirects to `/en/` (default language)

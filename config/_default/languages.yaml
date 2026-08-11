@@ -6,13 +6,13 @@
 en:
   languageCode: en-us
   languageName: English
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
   languageCode: zh-Hans
   languageName: 中文 (简体)
+  contentDir: content/zh
   title: 许煜
   params:
     description: 许煜的个人学术主页
