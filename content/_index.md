@@ -78,6 +78,14 @@ sections:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: '2006'
       items:
+        - title: 'External reviewer (Bioinformatics)'
+          certificate_url: ''
+          date_end: ''
+          date_start: '2026-01-01'
+          description: ''
+          organization: Bioinformatics
+          organization_url: https://academic.oup.com/bioinformatics
+          url: ''
         - title: 'External reviewer (BIBM 2024)'
           certificate_url: ''
           date_end: ''

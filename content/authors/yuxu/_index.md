@@ -35,6 +35,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: Visiting Student in Medical School
+      institution: University of Michigan
+      year: 2026
     - course: Ph.D. in Computer Science
       institution: Hong Kong Baptist University
       year: Candidate
