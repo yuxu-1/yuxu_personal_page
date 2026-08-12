@@ -5,6 +5,8 @@ weight: 55
 
 title: 获奖
 
+date_format: '2006'
+
 item:
   - title: RPg 研究表现奖
     organization: 计算机科学系，香港浸会大学

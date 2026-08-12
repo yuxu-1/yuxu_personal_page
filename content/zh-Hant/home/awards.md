@@ -5,6 +5,8 @@ weight: 55
 
 title: 獲獎
 
+date_format: '2006'
+
 item:
   - title: RPg 研究表現獎
     organization: 計算機科學系，香港浸會大學

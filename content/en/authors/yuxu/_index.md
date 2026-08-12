@@ -67,7 +67,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: /uploads/XUYu_2026.pdf
+    link: https://yu-xu.netlify.app/uploads/XUYu_2026.pdf
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0005-4873-1659

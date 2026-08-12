@@ -5,6 +5,8 @@ weight: 55
 
 title: Awards
 
+date_format: '2006'
+
 item:
   - title: RPg Research Performance Award
     organization: Computer Science, HKBU
