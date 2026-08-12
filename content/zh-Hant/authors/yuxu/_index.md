@@ -72,5 +72,5 @@ highlight_name: true
 
 > ⚠️ **聲明**：本中文頁面內容由 AI 自動生成，可能存在翻譯不準確或語義誤差，建議以[英文頁面](/en/)為準。如有疑問，歡迎通過郵件聯繫確認。
 
-我是香港浸會大學 [Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang) 的博士研究生。目前的研究方向主要圍繞計算基因組學與計算代謝組學。我致力於基於最前沿的深度學習技術（如大語言模型）和多組學數據，設計生物基礎模型，以應對計算生物學中的關鍵挑戰。如果您對我的研究課題感興趣，歡迎通過郵件與我聯繫。
+我是香港浸會大學 [Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang) 的博士研究生。目前的研究方向主要圍繞計算基因組學與計算代謝組學。我致力於基於最前沿的深度學習技術（如大語言模型）和多組學數據，設計生物基礎模型，以應對計算生物學中的關鍵挑戰。目前，我同時也在密西根大學醫學院 [Au lab](https://medschool.umich.edu/profile/10159/kin-fai-f-au) 擔任訪問學生，研究轉座元件分析中的基因組語言模型。如果您對我的研究課題感興趣，歡迎通過郵件與我聯繫。
 {style="text-align: justify;"}

@@ -78,5 +78,5 @@ email: 'allanxu20@gmail.com'
 highlight_name: true
 ---
 
-I am a Ph.D. candidate at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and multi-omics to address the challenges in computational biology. Feel free to email me if you are interest with my research topics.
+I am a Ph.D. candidate at [the Eric CompBio Lab](https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang). My current research centers around computational genomics and metabolomics. I am interested in designing biological foundation models based on state-of-the-art deep learning techniques (e.g., large language models) and multi-omics to address the challenges in computational biology. Currently, I am also a visiting student in [the Au lab](https://medschool.umich.edu/profile/10159/kin-fai-f-au) at the University of Michigan Medical School, studying genomic language models in transposable elements analysis. Feel free to email me if you are interest with my research topics.
 {style="text-align: justify;"}
