@@ -60,7 +60,7 @@ social:
     link: https://scholar.google.com.hk/citations?user=CUmx8t8AAAAJ&hl=zh-CN&oi=sra
   - icon: cv
     icon_pack: ai
-    link: uploads/XUYu_2026.pdf
+    link: /uploads/XUYu_2026.pdf
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0005-4873-1659

@@ -19,6 +19,9 @@ main:
   - name: Academic
     url: '#academic'
     weight: 50
+  - name: Awards
+    url: '#awards'
+    weight: 55
   - name: Teaching
     url: '#teaching'
     weight: 60

@@ -27,6 +27,9 @@ zh:
       - name: 学术活动
         url: '#academic'
         weight: 30
+      - name: 获奖
+        url: '#awards'
+        weight: 35
       - name: 教学
         url: '#teaching'
         weight: 40
@@ -52,6 +55,9 @@ zh-Hant:
       - name: 學術活動
         url: '#academic'
         weight: 30
+      - name: 獲獎
+        url: '#awards'
+        weight: 35
       - name: 教學
         url: '#teaching'
         weight: 40
